@@ -176,13 +176,13 @@ border-radius: 4px;
 /* Section-Values */
 
 .values-container{
-    display: flex;
 }
 .values-list{
 
     display: flex;
-    padding: 120px 0 120px 0;
     gap: 24px;
+padding-bottom: 120px;
+padding-top: 120px;
 }
 
 .values-title{
@@ -201,6 +201,11 @@ border-radius: 4px;
 }
 
 /* Section-ABOUT */
+.about-container{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
 .about-title{
 font-size: 36px;
 line-height: 1.11;
@@ -235,7 +240,6 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--first-title-color);
-padding-top: 120px;
 margin-bottom: 72px;
 }
 .team-bottom-title{
@@ -245,6 +249,7 @@ margin-bottom: 72px;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--first-title-color);
+
 }
 .team-profession-text{
     font-size: 16px;
@@ -252,6 +257,7 @@ margin-bottom: 72px;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--text-color);
+    
 }
 .team-background-photo{
 background:var(--page-color);
@@ -262,6 +268,10 @@ gap: 24px;
 }
 .team-background-photo{
     width: calc((100% - 72px) / 4);    
+}
+.team-section{
+    padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 /* Footer */
