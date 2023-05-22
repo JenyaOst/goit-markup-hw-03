@@ -90,7 +90,6 @@ img{
     color: var(--btn-color);
     padding-top: 24px;
     padding-bottom: 24px;
-    height: 21px;
     margin-right: 76px;
 }
 
@@ -209,7 +208,6 @@ border: none;
 
 .values-section{
     padding-top: 120px;
-    padding-bottom: 120px;
 
 }
 .values-paragraph-list{
@@ -382,8 +380,6 @@ letter-spacing: 0.04em;
 color: var(--btn-color);
 background:var(--background-color);
 cursor: pointer;
-min-width: 116px;
-min-height: 48px;
 border: 1px solid #E7E9FC;
 border-radius: 4px;
 }
