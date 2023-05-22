@@ -208,6 +208,7 @@ border: none;
 
 .values-section{
     padding-top: 120px;
+    padding-bottom: 120px;
 
 }
 .values-paragraph-list{
@@ -240,7 +241,6 @@ border: none;
 
 .about-section{
     padding-bottom: 120px;
-    padding-top: 120px;
 }
 
 .about-title{
